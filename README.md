@@ -24,22 +24,22 @@ The steps taken to produce a local build on a clean Win10 machine.
    3. Change directory to "C:\coh\MasterSolution"
    4. run build.ps1 (running .\build.ps1)
    5. Go make some tea. Takes a little while.
-5. In source directory create a new "data" folder under /bin"
+6. In source directory create a new "data" folder under /bin"
    i.e. "C:\coh\bin\data"
-6. Open ServerData.7z and copy contents to your new data folder.
-7. Open CoHDev_Source_Files_Current(Updated).zip.
+7. Open ServerData.7z and copy contents to your new data folder.
+8. Open CoHDev_Source_Files_Current(Updated).zip.
    1. Copy data from "i24 Server and Client Piggs (extracted with CoHTools)" folder to "C:\coh\bin\data\"
    2. Copy "maps.db" file from "map.db (modified, working on current VS2010 build)" folder to 
       "C:\coh\bin\data\server\db", overwriting the old maps.db
    3. Copy piggs folder client to "C:\coh\bin\piggs"
-8. Create a folder called "C:\CoH_Data\attributes". It has to be that exactly.
+9. Create a folder called "C:\CoH_Data\attributes". It has to be that exactly.
    1. Open a command window in "c:\coh\bin" and run "mapserver.exe -productionmode -templates"
    2. Copy contents of attributes folder to "C:\coh\bin\data\server\db\templates"
-9. Use SQL Server 2017 to create a new database
+10. Use SQL Server 2017 to create a new database
    Give it an Instance name of "COH"
    Install to a directory like "c:\mssql" and not in somewhere like programme files
    Select mixed authentication and enter and record a password for the "sa" account.
-10. Edit the following sql scripts from the directory "C:\coh\DBSchemas"
+11. Edit the following sql scripts from the directory "C:\coh\DBSchemas"
    1. cohacc.sql
    2. cohauc.sql
    3. cohauth.sql
@@ -49,23 +49,21 @@ The steps taken to produce a local build on a clean Win10 machine.
    FILENAME = N'C:\MSSQL\MSSQL14.SQLEXPRESS\MSSQL\DATA\cohacc.mdf'
    and point it to your installation. Something like:
    FILENAME = N'C:\mssql\coh\MSSQL14.COH\MSSQL\DATA\cohacc.mdf'
-11. From SQL Server Management Studio, open your "COH" db instance with your "sa" account.
+12. From SQL Server Management Studio, open your "COH" db instance with your "sa" account.
    Run the scripts from the directory "C:\coh\DBSchemas"
    1. cohacc.sql
    2. cohauc.sql
    3. cohauth.sql
    4. cohchat.sql
    DO NOT run the cohdb.sql script that database will be created by the server the first time it runs.
-12. Load the config files from my git to "c:\coh\bin\data\server\db"
-13. Edit config files and update sql driver to point to your instance i.e.
+13. Load the config files from my git to "c:\coh\bin\data\server\db"
+14. Edit config files and update sql driver to point to your instance i.e.
     SqlLogin "DRIVER={SQL Server Native Client 11.0};Server=YOURPC\COH;Uid=sa;Pwd=yoursapassword;"
-14. Time to start running things!
-15. Open a command prompt at "c:\coh\bin"
+15. Time to start running things!
+16. Open a command prompt at "c:\coh\bin"
     Run "mapserver.exe -chatservernames localhost"
     You only need to run this once and it should create the "cohdb" database
-    and populate templates and other unknown stuff.
-16. 
-    
+    and populate templates and other unknown stuff.  
 
 # Launch Server
 Now you can run the server elements you need to run each time.
