@@ -48,9 +48,15 @@ The steps taken to produce a local build on a clean Win10 machine.
     4. cohchat.sql
     You will need to edit each sql script to point to the location of you database instance.
     Look for line in the create database statement like
+    
+    ```
     FILENAME = N'C:\MSSQL\MSSQL14.SQLEXPRESS\MSSQL\DATA\cohacc.mdf'
+    ```
     and point it to your installation. Something like:
+    ```
     FILENAME = N'C:\mssql\coh\MSSQL14.COH\MSSQL\DATA\cohacc.mdf'
+    ```
+    
 13. From SQL Server Management Studio, open your "COH" db instance with your "sa" account.
     Run the scripts from the directory "C:\coh\DBSchemas"
     1. cohacc.sql
