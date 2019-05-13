@@ -17,6 +17,7 @@ The steps taken to produce a local build on a clean Win10 machine.
    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
 4. Download git repo https://git.ourodev.com/CoX/Source
    You want the "develop" branch.
+   For reference this build was done using commit "2c7436e6" from 9th of May.
    Download to a directory such a "C:\coh"
 5. Compile the server code:
    1. Open a Powershell window.
