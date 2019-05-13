@@ -28,36 +28,36 @@ The steps taken to produce a local build on a clean Win10 machine.
 6. In source directory create a new "data" folder under /bin"
    i.e. "C:\coh\bin\data"
 7. Open ServerData.7z and copy contents to your new data folder.
-8. Open CoHDev_Source_Files_Current(Updated).zip.
+8. Open CoHDev_Source_Files_Current(Updated).zip:
    1. Copy data from "i24 Server and Client Piggs (extracted with CoHTools)" folder to "C:\coh\bin\data\"
    2. Copy "maps.db" file from "map.db (modified, working on current VS2010 build)" folder to 
       "C:\coh\bin\data\server\db", overwriting the old maps.db
 9. Install the client to somewhere like "C:\City of Heroes"
    1. Copy the "C:\City Of Heroes\piggs" folder to "C:\coh\bin\piggs"
 10. Create a folder called "C:\CoH_Data\attributes". It has to be that exactly.
-   1. Open a command window in "C:\coh\bin" and run "mapserver.exe -productionmode -templates"
-   2. Copy contents of attributes folder to "C:\coh\bin\data\server\db\templates"
+    1. Open a command window in "C:\coh\bin" and run "mapserver.exe -productionmode -templates"
+    2. Copy contents of attributes folder to "C:\coh\bin\data\server\db\templates"
 11. Use SQL Server 2017 to create a new database
-   Give it an Instance name of "COH"
-   Install to a directory like "C:\mssql" and not in somewhere like programme files
-   Select mixed authentication and enter and record a password for the "sa" account.
+    Give it an Instance name of "COH"
+    Install to a directory like "C:\mssql" and not in somewhere like programme files
+    Select mixed authentication and enter and record a password for the "sa" account.
 12. Edit the following sql scripts from the directory "C:\coh\DBSchemas"
-   1. cohacc.sql
-   2. cohauc.sql
-   3. cohauth.sql
-   4. cohchat.sql
-   You will need to edit each sql script to point to the location of you database instance.
-   Look for line in the create database statement like
-   FILENAME = N'C:\MSSQL\MSSQL14.SQLEXPRESS\MSSQL\DATA\cohacc.mdf'
-   and point it to your installation. Something like:
-   FILENAME = N'C:\mssql\coh\MSSQL14.COH\MSSQL\DATA\cohacc.mdf'
+    1. cohacc.sql
+    2. cohauc.sql
+    3. cohauth.sql
+    4. cohchat.sql
+    You will need to edit each sql script to point to the location of you database instance.
+    Look for line in the create database statement like
+    FILENAME = N'C:\MSSQL\MSSQL14.SQLEXPRESS\MSSQL\DATA\cohacc.mdf'
+    and point it to your installation. Something like:
+    FILENAME = N'C:\mssql\coh\MSSQL14.COH\MSSQL\DATA\cohacc.mdf'
 13. From SQL Server Management Studio, open your "COH" db instance with your "sa" account.
-   Run the scripts from the directory "C:\coh\DBSchemas"
-   1. cohacc.sql
-   2. cohauc.sql
-   3. cohauth.sql
-   4. cohchat.sql
-   DO NOT run the cohdb.sql script that database will be created by the server the first time it runs.
+    Run the scripts from the directory "C:\coh\DBSchemas"
+    1. cohacc.sql
+    2. cohauc.sql
+    3. cohauth.sql
+    4. cohchat.sql
+    DO NOT run the cohdb.sql script that database will be created by the server the first time it runs.
 14. Load the config files from my git to "C:\coh\bin\data\server\db"
 15. Edit config files and update sql driver to point to your instance i.e.
     SqlLogin "DRIVER={SQL Server Native Client 11.0};Server=YOURPC\COH;Uid=sa;Pwd=yoursapassword;"
