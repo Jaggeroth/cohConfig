@@ -7,8 +7,8 @@ The steps taken to produce a local build on a clean Win10 machine.
 * Microsoft SQL Server 2017 Developer - A full-featured free edition, licensed for use as a development and test database in a non-production environment.
 * Microsoft SQL Server Management Studio 2018
 * Git - I use SourceTree from https://www.sourcetreeapp.com/
-* ServerData.7z from here: 
-* Client software from here: magnet:?xt=urn:btih:n642zelj2se2yn2ovmfy2z74tyyf7scs&dn=City%20of%20Heroes&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce
+* ServerData.7z from here: [magnet link](magnet:?xt=urn:btih:8CE9DE8ECCF29B899B247512F1082F20B59DC4B2&dn=ServerData.7z&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce)
+* Client software from here: [magnet link](magnet:?xt=urn:btih:n642zelj2se2yn2ovmfy2z74tyyf7scs&dn=City%20of%20Heroes&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce)
 
 # Installation steps
 1. Install Visual Studio 2010
