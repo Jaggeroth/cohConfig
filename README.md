@@ -17,7 +17,7 @@ The steps taken to produce a local build on a clean Win10 machine.
    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
 4. Download git repo https://git.ourodev.com/CoX/Source
    You want the "develop" branch.
-   For reference this build was done using commit "2c7436e6" from 9th of May.
+   For reference this build was done using commit "2c7436e6" from 9th of May, but I would expect it to work on the latest commit.
    Download to a directory such a "C:\coh"
 5. Compile the server code:
    1. Open a Powershell window.
@@ -64,7 +64,7 @@ The steps taken to produce a local build on a clean Win10 machine.
     3. cohauth.sql
     4. cohchat.sql
     DO NOT run the cohdb.sql script that database will be created by the server the first time it runs.
-14. Load the config files from this [git repo](https://github.com/Jaggeroth/cohConfig) to the matching directory in your build i.e "C:\coh\bin\data\server\db"
+14. Download the master branch from my [git repo](https://github.com/Jaggeroth/cohConfig) and copy the config files from "\bin\data\server\db" to the matching directory in your build i.e "C:\coh\bin\data\server\db"
 15. Edit config files and update sql driver to point to your instance i.e.
     SqlLogin "DRIVER={SQL Server Native Client 11.0};Server=YOURPC\COH;Uid=sa;Pwd=yoursapassword;"
 16. Time to start running things!
