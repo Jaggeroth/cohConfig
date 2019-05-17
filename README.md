@@ -83,9 +83,10 @@ dbserver.exe
 ```
 
 # Launch Client
-Extract the cient to a directory like "C:\City of Heroes"
-and set up the followiing shortcut:
+Extract the client to a directory like "C:\City of Heroes" and set up the followiing shortcut:
+```
 C:\City of Heroes\cityofheroes.exe -db 127.0.0.1 -console -noperforce -project "coh"
+```
 
 The "-project" parameter doesn't actually do anything unless you have certain registry stuff setup, 
 so you can ignore this.
