@@ -76,9 +76,11 @@ The steps taken to produce a local build on a clean Win10 machine.
 # Launch Server
 Now you can run the server elements you need to run each time.
 From the "C:\coh\bin" directory run:
+```
 chatserver.exe -noreserved 
 launcher.exe
 dbserver.exe
+```
 
 # Launch Client
 Extract the cient to a directory like "C:\City of Heroes"
