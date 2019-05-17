@@ -56,7 +56,9 @@ These instructions are the steps I took to get a local Auth Server up and runnin
 # Account Server
 1. It doesn't make sense to run the AuthServer without the Account Server. So copy the new Account_server.cfg from the repo to  "C:\coh\bin\data\server\db\account_server.cfg"
    Remember to update the config with the address and password for your database instance:
-   ```SqlLogin "DRIVER={SQL Server Native Client 11.0};Server=YOURPC\COH;Uid=sa;Pwd=yoursapassword;"```
+   ```
+   SqlLogin "DRIVER={SQL Server Native Client 11.0};Server=YOURPC\COH;Uid=sa;Pwd=yoursapassword;"
+   ```
 2. Do some SQL inserts to set up the account details?
 3. Lauch the applications again, this time including the Account Server:
    AuthServer.exe
