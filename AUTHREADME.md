@@ -61,8 +61,14 @@ These instructions are the steps I took to get a local Auth Server up and runnin
    ```
    SqlLogin "DRIVER={SQL Server Native Client 11.0};Server=YOURPC\COH;Uid=sa;Pwd=yoursapassword;"
    ```
-2. Do some SQL inserts to set up the account details?
-3. Lauch the applications again, this time including the Account Server:
+2. Create another account (see step 4 above)
+3. Sone SQL to give the account additional stuff?
+   Or update the default sku?
+4. Lower the default access level in the server.cfg
+   ```
+   DefaultAccessLevel 0
+   ```
+5. Lauch the applications again, this time including the Account Server:
    ```
    AuthServer.exe
    AccountServer.exe
@@ -70,7 +76,7 @@ These instructions are the steps I took to get a local Auth Server up and runnin
    launcher.exe
    dbserver.exe
    ```
-4. Launch the City of Heroes application as before but using the following launch parameters:
+6. Launch the City of Heroes application as before but using the following launch parameters:
    ```
    CityOfHeroes.exe -auth 127.0.0.1 -console -project "coh"
    ```
