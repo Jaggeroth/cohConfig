@@ -154,7 +154,7 @@ chargeWhenServerDown = true
 UsePacketLog = 7
 
 ; Use new method for password encryption
-EEncrypt = true
+Encrypt = false
 
 DesApply = true
 
@@ -197,9 +197,9 @@ sendQueueLevel = false
 
 ; Un-comment and set these values to override the default logging filters
 ; "Verbose" logging adds more detail to the log.
-;enableVerboseLogging = false
+enableVerboseLogging = true
 ; "Debug" logging adds the highest level of detailed logging.
-;enableDebugLogging = false
+enableDebugLogging = true
 
 ; This value modulus 1000 corresponds to BillingPlanID in AccountData.h.
 ; -1 or commented out turns it off.
