@@ -93,3 +93,19 @@ C:\coh\bin\Ouroboros.exe -db 127.0.0.1 -console -noperforce -project "coh"
 
 The "-project" parameter doesn't actually do anything unless you have certain registry stuff setup, 
 so you can ignore this.
+
+# Useful Commands
+The first characters you create will have admin permissions until you change the DefaultAccessLevel in server.cfg down to 0.
+For characters with access of 11 or more the following will give you access to an admin menu:
+```
+/mmm
+```
+Set your level to 50:
+```
+/levelup_xp 50
+```
+Change your costume to a Police Drone:
+```
+/benpc police_drone
+```
+ 
