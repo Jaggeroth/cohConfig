@@ -7,80 +7,59 @@
 	</profiles>
 	<filelist>
 		<!-- Ouroboros v2i1 - Updated:6/14/2019 -->
-		<file md5="546EB6220246E27CB1E6A149C6EA4FDC" size="5667432" name="cg.dll">
+		<file md5="546eb6220246e27cb1e6a149c6ea4fdc" size="5667432" name="cg.dll">
 			<url>https://brute.coh.network/OuroDev/v2i1/cg.dll</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/cg.dll</url>
 		</file>
-		<file md5="7652657FA392FB9418CCF309145DD7B4" size="350824" name="cgGL.dll">
+		<file md5="7652657fa392fb9418ccf309145dd7b4" size="350824" name="cgGL.dll">
 			<url>http://cityofhero.es/OuroDev/v2i1/cgGL.dll</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/cgGL.dll</url>
 		</file>
-		<file md5="404F5E87EA3B18EC38D1CCE05CDFF657" size="290408" name="cudart32_30_9.dll">
+		<file md5="404f5e87ea3b18ec38d1cce05cdff657" size="290408" name="cudart32_30_9.dll">
 			<url>https://brute.coh.network/OuroDev/v2i1/cudart32_30_9.dll</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/cudart32_30_9.dll</url>
 		</file>
-		<file md5="1CA9D1701A5F80AE1ED29AEBAEF3C6D9" size="749568" name="NxCooking.dll">
+		<file md5="1ca9d1701a5f80ae1ed29aebaef3c6d9" size="749568" name="NxCooking.dll">
 			<url>https://brute.coh.network/OuroDev/v2i1/NxCooking.dll</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/NxCooking.dll</url>
 		</file>
-		<file md5="415755240DCCE033C27F464724CBA3F0" size="9681408" name="Ouroboros.exe">
+		<file md5="415755240dcce033c27f464724cba3f0" size="9681408" name="Ouroboros.exe">
 			<url>https://brute.coh.network/OuroDev/v2i1/Ouroboros.exe</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/Ouroboros.exe</url>
 		</file>
-		<file md5="7D0CDB880FEEBF3F4C1BB0DDB7E75908" size="383840" name="PhysXCooking.dll">
+		<file md5="7d0cdb880feebf3f4c1bb0ddb7e75908" size="383840" name="PhysXCooking.dll">
 			<url>http://cityofhero.es/OuroDev/v2i1/PhysXCooking.dll</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/PhysXCooking.dll</url>
 		</file>
-		<file md5="BA59004E116FE1E6F40F899D5103868A" size="3567456" name="PhysXCore.dll">
+		<file md5="ba59004e116fe1e6f40f899d5103868a" size="3567456" name="PhysXCore.dll">
 			<url>http://cityofhero.es/OuroDev/v2i1/PhysXCore.dll</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/PhysXCore.dll</url>
 		</file>
-		<file md5="2147A0A90F430C76A8584A021C6AC381" size="64352" name="PhysXLoader.dll">
+		<file md5="2147a0a90f430c76a8584a021c6ac381" size="64352" name="PhysXLoader.dll">
 			<url>https://brute.coh.network/OuroDev/v2i1/PhysXLoader.dll</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/PhysXLoader.dll</url>
 		</file>
-		<file md5="8030E32F1E1A8E77A00181FEC05A3F2D" size="29" name="version.ini">
+		<file md5="8030e32f1e1a8e77a00181fec05a3f2d" size="29" name="version.ini">
 			<url>https://brute.coh.network/OuroDev/v2i1/version.ini</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/version.ini</url>
 		</file>
-		<file md5="7A705AA0259B4BA07DF49E427D006163" size="116021" name="ouro/DBTextures.pigg">
+		<file md5="7a705aa0259b4ba07df49e427d006163" size="116021" name="ouro/DBTextures.pigg">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 		</file>
-		<file md5="4EE5F0BA1EB11CDD8A3D5BE0B0CFB863" size="9841821" name="ouro/ouro_bin_v2i1.pigg">
+		<file md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863" size="9841821" name="ouro/ouro_bin_v2i1.pigg">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 		</file>
-		<file md5="ABEFD84E04E6DECD9C530A814E89FA8F" size="16844" name="ouro/ouro_emblems_v2i1.pigg">
+		<file md5="abefd84e04e6decd9c530a814e89fa8f" size="16844" name="ouro/ouro_emblems_v2i1.pigg">
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 		</file>
-		<file md5="3556FFC8413EF229B6E590C9C629569C" size="359958" name="ouro/ouro_login_v2i1.pigg">
+		<file md5="3556ffc8413ef229b6e590c9c629569c" size="359958" name="ouro/ouro_login_v2i1.pigg">
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 		</file>
-		<!-- Victory -->
-		<!-- coxg -->
-		<!-- Paragon Chat -->
-		<file name="paragonchat.exe" size="449024" md5="8cfc1501888f2af72b7bb292164a257b">
-			<url>http://chat.cohtitan.com/release/ParagonChatBootstrap.exe</url>
-		</file>
-		<!-- Titan Icon -->
-		<file name="icon.exe" size="83982" md5="197baa2e5b8c02deddf8b73ab2cf8b01">
-			<url>http://repo.cohtitan.com/icon/icon.exe</url>
-		</file>
 		<!-- Issue 24 -->
-		<file name="cityofheroes.exe" size="9060352" md5="52044c72aab78c74e720cacf16a7e374">
-			<url>http://psb34088.seedbox.io/files/coh/cityofheroes.exe</url>
-			<url>http://coh.air-raid.de/coh-client/2400/cityofheroes.exe</url>
-			<url>http://sherman.tankertuesday.com/coh/cityofheroes.exe</url>
-			<url>http://catgurlz.jaybonaut.com/cohbeta/cityofheroes.exe</url>
-			<url>http://54.218.2.58/cityofheroes.exe</url>
-			<url>http://map.ff-en.de/coh/cityofheroes.exe</url>
-			<url>http://savecoh.supernerdland.com/client/cityofheroes.exe</url>
-			<url>http://rspatcher.cox-supergroups.com/coh/cityofheroes.exe</url>
-			<url>http://www.macskull.com/score/cityofheroes.exe</url>
-		</file>
 		<file name="dbghelp.dll" size="1030144" md5="623c9754952a35b018f2448af8184075">
 			<url>https://ICaNHaZChZbRgR.com/Ouro/dbghelp.dll</url>
 			<url>https://ICaNHaZCoX.com/Ouro/dbghelp.dll</url>
