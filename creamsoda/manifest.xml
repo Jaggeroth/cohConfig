@@ -2,7 +2,7 @@
 <manifest>
 	<label>City of Heroes</label>
 	<profiles>
-		<launch exec="Ouroboros.exe" order="0" website="http://hero-id.co.uk/coh/arcadia.html" params="-patchDir ouro -auth 77.100.71.212">Arcadia</launch>
+		<launch exec="Ouroboros.exe" order="0" website="http://hero-id.co.uk/coh/arcadia.html" params="-patchDir arcadia -auth 77.100.71.212">Arcadia</launch>
 		<launch exec="Ouroboros.exe" order="1" website="https://www.thunderspygaming.net/" params="-patchDir ouro -auth 167.114.172.239">/coxg/ (v2:i1)</launch>
 		<launch exec="Ouroboros.exe" order="2" website="https://play.cityofheroesrebirth.com/embed.html" params="-patchDir ouro -auth i24.cityofheroesrebirth.com">Rebirth (v2:i1)</launch>
 	</profiles>
@@ -59,6 +59,22 @@
 		<file md5="3556ffc8413ef229b6e590c9c629569c" size="359958" name="ouro/ouro_login_v2i1.pigg">
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
+		</file>
+		<!-- ARCADIA -->
+		<file md5="7a705aa0259b4ba07df49e427d006163" size="116021" name="arcadia/DBTextures.pigg">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
+			<url>http://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
+		</file>
+		<file md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863" size="9841821" name="arcadia/ouro_bin_v2i1.pigg">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
+			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
+		</file>
+		<file md5="abefd84e04e6decd9c530a814e89fa8f" size="16844" name="arcadia/ouro_emblems_v2i1.pigg">
+			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
+		</file>
+		<file md5="5873163746b6b5788e680aeecf7b0445" size="255558" name="arcadia/arcadia_login.pigg">
+			<url>http://hero-id.co.uk/coh/arcadia_login.pigg</url>
 		</file>
 		<!-- Issue 24 -->
 		<file name="dbghelp.dll" size="1030144" md5="623c9754952a35b018f2448af8184075">
