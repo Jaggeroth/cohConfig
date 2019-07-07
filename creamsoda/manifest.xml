@@ -2,8 +2,9 @@
 <manifest>
 	<label>City of Heroes</label>
 	<profiles>
-		<launch exec="Ouroboros.exe" order="0" website="https://play.cityofheroesrebirth.com/embed.html" params="-patchDir ouro -auth i24.cityofheroesrebirth.com">Rebirth (v2:i1)</launch>
+		<launch exec="Ouroboros.exe" order="0" website="https://raw.githubusercontent.com/Jaggeroth/cohConfig/master/creamsoda/arcadia.html" params="-patchDir ouro -auth 77.100.71.212">Arcadia</launch>
 		<launch exec="Ouroboros.exe" order="1" website="https://www.thunderspygaming.net/" params="-patchDir ouro -auth 167.114.172.239">/coxg/ (v2:i1)</launch>
+		<launch exec="Ouroboros.exe" order="2" website="https://play.cityofheroesrebirth.com/embed.html" params="-patchDir ouro -auth i24.cityofheroesrebirth.com">Rebirth (v2:i1)</launch>
 	</profiles>
 	<filelist>
 		<!-- Ouroboros v2i1 - Updated:6/14/2019 -->
