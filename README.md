@@ -106,6 +106,9 @@ Set your level to 50:
 ```
 Change your costume to a Police Drone:
 ```
-/benpc police_drone
+/benpc police_drone_guard
 ```
- 
+Level up a player to level 50:
+```
+/csr "Player Name" level_up 50
+```
