@@ -110,5 +110,5 @@ Change your costume to a Police Drone:
 ```
 Level up a player to level 50:
 ```
-/csr "Player Name" level_up 50
+/csr "Player Name" levelup_xp 50
 ```
