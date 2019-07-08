@@ -8,72 +8,73 @@
 	</profiles>
 	<filelist>
 		<!-- Ouroboros v2i1 - Updated:6/14/2019 -->
-		<file md5="546eb6220246e27cb1e6a149c6ea4fdc" size="5667432" name="cg.dll">
-			<url>https://brute.coh.network/OuroDev/v2i1/cg.dll</url>
-			<url>http://cityofhero.es/OuroDev/v2i1/cg.dll</url>
-		</file>
-		<file md5="7652657fa392fb9418ccf309145dd7b4" size="350824" name="cgGL.dll">
-			<url>http://cityofhero.es/OuroDev/v2i1/cgGL.dll</url>
-			<url>https://brute.coh.network/OuroDev/v2i1/cgGL.dll</url>
-		</file>
-		<file md5="404f5e87ea3b18ec38d1cce05cdff657" size="290408" name="cudart32_30_9.dll">
-			<url>https://brute.coh.network/OuroDev/v2i1/cudart32_30_9.dll</url>
-			<url>http://cityofhero.es/OuroDev/v2i1/cudart32_30_9.dll</url>
-		</file>
-		<file md5="1ca9d1701a5f80ae1ed29aebaef3c6d9" size="749568" name="NxCooking.dll">
-			<url>https://brute.coh.network/OuroDev/v2i1/NxCooking.dll</url>
-			<url>http://cityofhero.es/OuroDev/v2i1/NxCooking.dll</url>
-		</file>
-		<file md5="415755240dcce033c27f464724cba3f0" size="9681408" name="Ouroboros.exe">
+		<file name="Ouroboros.exe" md5="415755240dcce033c27f464724cba3f0" size="9681408">
 			<url>https://brute.coh.network/OuroDev/v2i1/Ouroboros.exe</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/Ouroboros.exe</url>
 		</file>
-		<file md5="7d0cdb880feebf3f4c1bb0ddb7e75908" size="383840" name="PhysXCooking.dll">
+		<file name="cg.dll" md5="546eb6220246e27cb1e6a149c6ea4fdc" size="5667432">
+			<url>https://brute.coh.network/OuroDev/v2i1/cg.dll</url>
+			<url>http://cityofhero.es/OuroDev/v2i1/cg.dll</url>
+		</file>
+		<file name="cgGL.dll" md5="7652657fa392fb9418ccf309145dd7b4" size="350824">
+			<url>http://cityofhero.es/OuroDev/v2i1/cgGL.dll</url>
+			<url>https://brute.coh.network/OuroDev/v2i1/cgGL.dll</url>
+		</file>
+		<file name="cudart32_30_9.dll" md5="404f5e87ea3b18ec38d1cce05cdff657" size="290408">
+			<url>https://brute.coh.network/OuroDev/v2i1/cudart32_30_9.dll</url>
+			<url>http://cityofhero.es/OuroDev/v2i1/cudart32_30_9.dll</url>
+		</file>
+		<file name="NxCooking.dll" md5="1ca9d1701a5f80ae1ed29aebaef3c6d9" size="749568">
+			<url>https://brute.coh.network/OuroDev/v2i1/NxCooking.dll</url>
+			<url>http://cityofhero.es/OuroDev/v2i1/NxCooking.dll</url>
+		</file>
+		<file name="PhysXCooking.dll" md5="7d0cdb880feebf3f4c1bb0ddb7e75908" size="383840">
 			<url>http://cityofhero.es/OuroDev/v2i1/PhysXCooking.dll</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/PhysXCooking.dll</url>
 		</file>
-		<file md5="ba59004e116fe1e6f40f899d5103868a" size="3567456" name="PhysXCore.dll">
+		<file name="PhysXCore.dll" md5="ba59004e116fe1e6f40f899d5103868a" size="3567456">
 			<url>http://cityofhero.es/OuroDev/v2i1/PhysXCore.dll</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/PhysXCore.dll</url>
 		</file>
-		<file md5="2147a0a90f430c76a8584a021c6ac381" size="64352" name="PhysXLoader.dll">
+		<file name="PhysXLoader.dll" md5="2147a0a90f430c76a8584a021c6ac381" size="64352">
 			<url>https://brute.coh.network/OuroDev/v2i1/PhysXLoader.dll</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/PhysXLoader.dll</url>
 		</file>
-		<file md5="8030e32f1e1a8e77a00181fec05a3f2d" size="29" name="version.ini">
+		<file name="version.ini" md5="8030e32f1e1a8e77a00181fec05a3f2d" size="29">
 			<url>https://brute.coh.network/OuroDev/v2i1/version.ini</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/version.ini</url>
 		</file>
-		<file md5="7a705aa0259b4ba07df49e427d006163" size="116021" name="ouro/DBTextures.pigg">
+		<!-- OURO Patch Directory -->
+		<file name="ouro/DBTextures.pigg" md5="7a705aa0259b4ba07df49e427d006163" size="116021">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 		</file>
-		<file md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863" size="9841821" name="ouro/ouro_bin_v2i1.pigg">
+		<file name="ouro/ouro_bin_v2i1.pigg" md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863" size="9841821">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 		</file>
-		<file md5="abefd84e04e6decd9c530a814e89fa8f" size="16844" name="ouro/ouro_emblems_v2i1.pigg">
+		<file name="ouro/ouro_emblems_v2i1.pigg" md5="abefd84e04e6decd9c530a814e89fa8f" size="16844">
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 		</file>
-		<file md5="3556ffc8413ef229b6e590c9c629569c" size="359958" name="ouro/ouro_login_v2i1.pigg">
+		<file name="ouro/ouro_login_v2i1.pigg" md5="3556ffc8413ef229b6e590c9c629569c" size="359958">
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 		</file>
-		<!-- ARCADIA -->
-		<file md5="7a705aa0259b4ba07df49e427d006163" size="116021" name="arcadia/DBTextures.pigg">
+		<!-- ARCADIA Patch Directory -->
+		<file name="arcadia/DBTextures.pigg" md5="7a705aa0259b4ba07df49e427d006163" size="116021">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 		</file>
-		<file md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863" size="9841821" name="arcadia/ouro_bin_v2i1.pigg">
+		<file name="arcadia/ouro_bin_v2i1.pigg" md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863" size="9841821">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 		</file>
-		<file md5="abefd84e04e6decd9c530a814e89fa8f" size="16844" name="arcadia/ouro_emblems_v2i1.pigg">
+		<file name="arcadia/ouro_emblems_v2i1.pigg" md5="abefd84e04e6decd9c530a814e89fa8f" size="16844">
 			<url>http://cityofhero.es/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 		</file>
-		<file md5="5873163746b6b5788e680aeecf7b0445" size="255558" name="arcadia/arcadia_login.pigg">
+		<file name="arcadia/arcadia_login.pigg" md5="5873163746b6b5788e680aeecf7b0445" size="255558">
 			<url>http://hero-id.co.uk/coh/arcadia_login.pigg</url>
 		</file>
 		<!-- Issue 24 -->
