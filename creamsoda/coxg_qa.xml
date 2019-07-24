@@ -61,23 +61,23 @@
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 		</file>
 		<!-- COXG QA Patch Directory files -->
-		<file name="ouro/DBTextures.pigg" size="116021" md5="7a705aa0259b4ba07df49e427d006163">
+		<file name="coxgQa/DBTextures.pigg" size="116021" md5="7a705aa0259b4ba07df49e427d006163">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 		</file>
-		<file name="ouro/ouro_bin_v2i1.pigg" size="9841821" md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863">
+		<file name="coxgQa/ouro_bin_v2i1.pigg" size="9841821" md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_bin_v2i1.pigg</url>
 		</file>
-		<file name="ouro/ouro_emblems_v2i1.pigg" size="16844" md5="abefd84e04e6decd9c530a814e89fa8f">
+		<file name="coxgQa/ouro_emblems_v2i1.pigg" size="16844" md5="abefd84e04e6decd9c530a814e89fa8f">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
 		</file>
-		<file name="ouro/ouro_login_v2i1.pigg" size="359958" md5="3556ffc8413ef229b6e590c9c629569c">
+		<file name="coxgQa/ouro_login_v2i1.pigg" size="359958" md5="3556ffc8413ef229b6e590c9c629569c">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 		</file>
-		<file md5="6cf0e0306422920e76909dbf43d61199" size="32026207" name="piggs/bin.pigg">
+		<file name="coxgQa/bin.pigg" md5="6cf0e0306422920e76909dbf43d61199" size="32026207">
 		    <url>http://51.79.72.149/bin.pigg</url>
 		</file>
 		<!-- Issue 24 -->
