@@ -3,7 +3,7 @@
 	<label>City of Heroes</label>
 	<profiles>
 		<launch exec="Ouroboros.exe" order="0" website="http://hero-id.co.uk/coh/arcadia.html" params="-patchDir arcadia -auth 77.100.71.212">Arcadia</launch>
-		<launch exec="Ouroboros.exe" order="1" website="https://www.thunderspygaming.net/" params="-patchDir ouro -auth 167.114.172.239">/coxg/ (v2:i1)</launch>
+		<launch exec="Ouroboros.exe" order="1" website="https://www.thunderspygaming.net/" params="-patchDir coxg -auth 167.114.172.239">/coxg/ (v2:i1)</launch>
 		<launch exec="Ouroboros.exe" order="2" website="https://play.cityofheroesrebirth.com/embed.html" params="-patchDir ouro -auth i24.cityofheroesrebirth.com">Rebirth (v2:i1)</launch>
 	</profiles>
 	<filelist>
@@ -76,6 +76,22 @@
 		</file>
 		<file name="arcadia/arcadia_login.pigg" md5="5873163746b6b5788e680aeecf7b0445" size="255558">
 			<url>http://hero-id.co.uk/coh/arcadia_login.pigg</url>
+		</file>
+		<!-- COXG files-->
+		<file name="coxg/DBTextures.pigg" size="116021" md5="7a705aa0259b4ba07df49e427d006163">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
+			<url>https://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
+		</file>
+		<file name="coxg/ouro_emblems_v2i1.pigg" size="16844" md5="abefd84e04e6decd9c530a814e89fa8f">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
+			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
+		</file>
+		<file name="coxg/ouro_login_v2i1.pigg" size="359958" md5="3556ffc8413ef229b6e590c9c629569c">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
+			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
+		</file>
+		<file name="coxg/bin.pigg" md5="4f1deb1bffa78ca91985b744efe52751" size="35383460">
+		    <url>https://www.thunderspygaming.net/bin.pigg</url>
 		</file>
 		<!-- Issue 24 -->
 		<file name="dbghelp.dll" size="1030144" md5="623c9754952a35b018f2448af8184075">
