@@ -4,8 +4,9 @@
 	<profiles>
 		<launch exec="Ouroboros.exe" order="0" params="-patchDir arcadia -auth 77.100.71.212" website="http://hero-id.co.uk/coh/arcadia.html">Arcadia</launch>
 		<launch exec="Ouroboros.exe" order="1" params="-patchDir coxg -auth 167.114.172.239" website="https://www.thunderspygaming.net/">/coxg/ (v2:i1)</launch>
-		<launch exec="Ouroboros.exe" order="2" params="-patchDir rebirth -auth i24.cityofheroesrebirth.com" website="https://play.cityofheroesrebirth.com/embed.html">Rebirth (v2:i1)</launch>
-		<launch exec="Ouroboros.exe" order="3" params="-patchDir ouro -auth coh.ourodev.com -console" website="http://coh.ourodev.com/embed.html">Ouroboros</launch>
+	    <launch exec="Ouroboros.exe" order="2" params="-patchDir coxgQa -auth 167.114.172.239 -console" website="https://www.thunderspygaming.net/">/coxg/ QA</launch>
+		<launch exec="Ouroboros.exe" order="3" params="-patchDir rebirth -auth i24.cityofheroesrebirth.com" website="https://play.cityofheroesrebirth.com/embed.html">Rebirth (v2:i1)</launch>
+		<launch exec="Ouroboros.exe" order="4" params="-patchDir ouro -auth coh.ourodev.com -console" website="http://coh.ourodev.com/embed.html">Ouroboros</launch>
 	</profiles>
 	<filelist>
 		<!-- Ouroboros v2i1 - Updated:6/14/2019 -->
@@ -93,6 +94,22 @@
 		</file>
 		<file name="coxg/bin.pigg" md5="4a2c43429539e90cbf9e66d494ea599d" size="37529813">
 		    <url>https://www.thunderspygaming.net/bin.pigg</url>
+		</file>
+		<!-- COXG QA Patch Directory files -->
+		<file name="coxgQa/DBTextures.pigg" size="116021" md5="7a705aa0259b4ba07df49e427d006163">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
+			<url>https://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
+		</file>
+		<file name="coxgQa/ouro_emblems_v2i1.pigg" size="16844" md5="abefd84e04e6decd9c530a814e89fa8f">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
+			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_emblems_v2i1.pigg</url>
+		</file>
+		<file name="coxgQa/ouro_login_v2i1.pigg" size="359958" md5="3556ffc8413ef229b6e590c9c629569c">
+			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
+			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
+		</file>
+		<file md5="a00b10910cfdbfad7542bbf918f45779" size="35465428" name="coxgQa/bin.pigg">
+		    <url>http://51.79.72.149/bin.pigg</url>
 		</file>
 		<!-- Rebirth files -->
 	    <file name="rebirth/DBTextures.pigg" md5="7A705AA0259B4BA07DF49E427D006163" size="116021">
