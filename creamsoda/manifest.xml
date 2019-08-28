@@ -92,8 +92,8 @@
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 		</file>
-		<file name="coxg/bin.pigg" md5="4a2c43429539e90cbf9e66d494ea599d" size="37529813">
-		    <url>https://www.thunderspygaming.net/bin.pigg</url>
+		<file name="coxg/bin.pigg" md5="d5ac066dde6e33e6e6d26047e6f32dcd" size="35461291">
+		    <url>http://www.thunderspygaming.net/styles/freedom/bin.pigg</url>
 		</file>
 		<!-- COXG QA Patch Directory files -->
 		<file name="coxgQa/DBTextures.pigg" size="116021" md5="7a705aa0259b4ba07df49e427d006163">
@@ -108,7 +108,7 @@
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 		</file>
-		<file md5="a00b10910cfdbfad7542bbf918f45779" size="35465428" name="coxgQa/bin.pigg">
+		<file name="coxgQa/bin.pigg" md5="bbf874a82cbf924af3b9fa17d4813973" size="35465428">
 		    <url>http://51.79.72.149/bin.pigg</url>
 		</file>
 		<!-- Rebirth files -->
