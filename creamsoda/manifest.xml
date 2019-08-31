@@ -92,7 +92,7 @@
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/ouro_login_v2i1.pigg</url>
 		</file>
-		<file name="coxg/bin.pigg" md5="d5ac066dde6e33e6e6d26047e6f32dcd" size="35461291">
+		<file name="coxg/bin.pigg" md5="cd7d76fd506852556299ae1eb211590b" size="37646511">
 		    <url>http://www.thunderspygaming.net/styles/freedom/bin.pigg</url>
 		</file>
 		<!-- COXG QA Patch Directory files -->
@@ -112,26 +112,42 @@
 		    <url>http://51.79.72.149/bin.pigg</url>
 		</file>
 		<!-- Rebirth files -->
-	    <file name="rebirth/DBTextures.pigg" md5="7A705AA0259B4BA07DF49E427D006163" size="116021">
-		    <url>https://brute.coh.network/rebirth/DBTextures.pigg</url>
-		    <url>http://cityofhero.es/rebirth/DBTextures.pigg</url>
-		</file>
-		<file name="rebirth/ouro_bin_v2i1.pigg" md5="4EE5F0BA1EB11CDD8A3D5BE0B0CFB863" size="9841821">
-		    <url>http://cityofhero.es/rebirth/ouro_bin_v2i1.pigg</url>
-		    <url>https://brute.coh.network/rebirth/ouro_bin_v2i1.pigg</url>
-		</file>
-		<file name="rebirth/ouro_emblems_v2i1.pigg" md5="ABEFD84E04E6DECD9C530A814E89FA8F" size="16844">
-		    <url>http://cityofhero.es/rebirth/ouro_emblems_v2i1.pigg</url>
-		    <url>https://brute.coh.network/rebirth/ouro_emblems_v2i1.pigg</url>
-		</file>
-		<file name="rebirth/ouro_login_v2i1.pigg" md5="3556FFC8413EF229B6E590C9C629569C" size="359958">
-		    <url>http://cityofhero.es/rebirth/ouro_login_v2i1.pigg</url>
-		    <url>https://brute.coh.network/rebirth/ouro_login_v2i1.pigg</url>
-		</file>
-		<file name="rebirth/rebirth.pigg" md5="A7D5AFCC6E5231E6D9E6652DA5EEE335" size="703537">
-		    <url>http://cityofhero.es/rebirth/rebirth.pigg</url>
-		    <url>https://brute.coh.network/rebirth/rebirth.pigg</url>
-		</file>
+        <file name="rebirth.exe" md5="d41d8cd98f00b204e9800998ecf8427e" size="0">
+            <url>http://cityofhero.es/rebirth/rebirth.exe</url>
+            <url>https://brute.coh.network/rebirth/rebirth.exe</url>
+        </file>
+        <file name="rebirth/DBTextures.pigg" md5="7A705AA0259B4BA07DF49E427D006163" size="116021">
+            <url>http://cityofhero.es/rebirth/DBTextures.pigg</url>
+            <url>https://brute.coh.network/rebirth/DBTextures.pigg</url>
+        </file>
+        <file name="rebirth/ouro_bin_v2i1.pigg" md5="4ee5f0ba1eb11cdd8a3d5be0b0cfb863" size="9841821">
+            <url>https://brute.coh.network/rebirth/ouro_bin_v2i1.pigg</url>
+            <url>http://cityofhero.es/rebirth/ouro_bin_v2i1.pigg</url>
+        </file>
+        <file name="rebirth/ouro_emblems_v2i1.pigg" md5="abefd84e04e6decd9c530a814e89fa8f" size="16844">
+            <url>http://cityofhero.es/rebirth/ouro_emblems_v2i1.pigg</url>
+            <url>https://brute.coh.network/rebirth/ouro_emblems_v2i1.pigg</url>
+        </file>
+        <file name="rebirth/ouro_login_v2i1.pigg" md5="3556ffc8413ef229b6e590c9c629569c" size="359958">
+            <url>https://brute.coh.network/rebirth/ouro_login_v2i1.pigg</url>
+            <url>http://cityofhero.es/rebirth/ouro_login_v2i1.pigg</url>
+        </file>
+        <file name="rebirth/rebirth-bin.pigg" md5="d41d8cd98f00b204e9800998ecf8427e" size="0">
+            <url>http://cityofhero.es/rebirth/rebirth-bin.pigg</url>
+            <url>https://brute.coh.network/rebirth/rebirth-bin.pigg</url>
+        </file>
+        <file name="rebirth/rebirth-ogg.pigg" md5="d41d8cd98f00b204e9800998ecf8427e" size="0">
+            <url>https://brute.coh.network/rebirth/rebirth-ogg.pigg</url>
+            <url>http://cityofhero.es/rebirth/rebirth-ogg.pigg</url>
+        </file>
+        <file name="rebirth/rebirth-tex.pigg" md5="d41d8cd98f00b204e9800998ecf8427e" size="0">
+            <url>https://brute.coh.network/rebirth/rebirth-tex.pigg</url>
+            <url>http://cityofhero.es/rebirth/rebirth-tex.pigg</url>
+        </file>
+        <file name="rebirth/rebirth.pigg" md5="a7d5afcc6e5231e6d9e6652da5eee335" size="703537">
+            <url>https://brute.coh.network/rebirth/rebirth.pigg</url>
+            <url>http://cityofhero.es/rebirth/rebirth.pigg</url>
+        </file>
 		<!-- Issue 24 -->
 		<file name="dbghelp.dll" size="1030144" md5="623c9754952a35b018f2448af8184075">
 			<url>https://ICaNHaZChZbRgR.com/Ouro/dbghelp.dll</url>
