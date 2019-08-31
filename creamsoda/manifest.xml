@@ -4,7 +4,7 @@
 	<profiles>
 		<launch exec="Ouroboros.exe" order="0" params="-patchDir arcadia -auth 77.100.71.212" website="http://hero-id.co.uk/coh/arcadia.html">Arcadia</launch>
 		<launch exec="Ouroboros.exe" order="1" params="-patchDir coxg -auth 167.114.172.239" website="https://www.thunderspygaming.net/">/coxg/ (v2:i1)</launch>
-	    <launch exec="Ouroboros.exe" order="2" params="-patchDir coxgQa -auth 167.114.172.239 -console" website="https://www.thunderspygaming.net/">/coxg/ QA</launch>
+	    <!-- launch exec="Ouroboros.exe" order="2" params="-patchDir coxgQa -auth 167.114.172.239 -console" website="https://www.thunderspygaming.net/">/coxg/ QA</launch -->
 		<launch exec="Ouroboros.exe" order="3" params="-patchDir rebirth -auth i24.cityofheroesrebirth.com" website="https://play.cityofheroesrebirth.com/embed.html">Rebirth (v2:i1)</launch>
 		<launch exec="Ouroboros.exe" order="4" params="-patchDir ouro -auth coh.ourodev.com -console" website="http://coh.ourodev.com/embed.html">Ouroboros</launch>
 	</profiles>
@@ -95,7 +95,7 @@
 		<file name="coxg/bin.pigg" md5="cd7d76fd506852556299ae1eb211590b" size="37646511">
 		    <url>http://www.thunderspygaming.net/styles/freedom/bin.pigg</url>
 		</file>
-		<!-- COXG QA Patch Directory files -->
+		<!-- COXG QA Patch Directory files
 		<file name="coxgQa/DBTextures.pigg" size="116021" md5="7a705aa0259b4ba07df49e427d006163">
 			<url>https://brute.coh.network/OuroDev/v2i1/ouro/DBTextures.pigg</url>
 			<url>https://cityofhero.es/OuroDev/v2i1/ouro/DBTextures.pigg</url>
@@ -110,7 +110,8 @@
 		</file>
 		<file name="coxgQa/bin.pigg" md5="bbf874a82cbf924af3b9fa17d4813973" size="35465428">
 		    <url>http://51.79.72.149/bin.pigg</url>
-		</file>
+		</file
+		-->
 		<!-- Rebirth files -->
         <file name="rebirth.exe" md5="d41d8cd98f00b204e9800998ecf8427e" size="0">
             <url>http://cityofhero.es/rebirth/rebirth.exe</url>
