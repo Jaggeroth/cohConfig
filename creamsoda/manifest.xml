@@ -3,7 +3,7 @@
 	<label>City of Heroes</label>
 	<profiles>
 		<launch exec="Ouroboros.exe" order="0" params="-patchDir arcadia -auth 77.100.71.212" website="http://hero-id.co.uk/coh/arcadia.html">Arcadia</launch>
-		<launch exec="Ouroboros.exe" order="1" params="-patchDir coxg -auth 167.114.172.239" website="https://www.thunderspygaming.net/">/coxg/ (v2:i1)</launch>
+		<launch exec="coxg.exe" order="1" params="-patchDir coxg -auth 167.114.172.239" website="https://www.thunderspygaming.net/">/coxg/ (v2:i1)</launch>
 	    <!-- launch exec="Ouroboros.exe" order="2" params="-patchDir coxgQa -auth 167.114.172.239 -console" website="https://www.thunderspygaming.net/">/coxg/ QA</launch -->
 		<launch exec="Ouroboros.exe" order="3" params="-patchDir rebirth -auth i24.cityofheroesrebirth.com" website="https://play.cityofheroesrebirth.com/embed.html">Rebirth (v2:i1)</launch>
 		<launch exec="Ouroboros.exe" order="4" params="-patchDir ouro -auth coh.ourodev.com -console" website="http://coh.ourodev.com/embed.html">Ouroboros</launch>
